@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://c7nuhr4bmgjg7"]
+
+[ext_resource type="PackedScene" uid="uid://w2hojo2prfcn" path="res://assets/images/6/six.tscn" id="1_k6djt"]
+[ext_resource type="Texture2D" uid="uid://74mr0eem3isi" path="res://assets/images/7/7.png" id="3_4svbh"]
+[ext_resource type="PackedScene" uid="uid://diqcsvutijbi3" path="res://assets/images/6/level_root.tscn" id="3_pv8mj"]
+
+[node name="Main" type="Node2D" unique_id=395247104]
+
+[node name="Six" parent="." unique_id=751697039 instance=ExtResource("1_k6djt")]
+position = Vector2(-5, 111)
+
+[node name="levelRoot" parent="." unique_id=1282082623 instance=ExtResource("3_pv8mj")]
+position = Vector2(-4, 14)
+
+[node name="7" type="Sprite2D" parent="." unique_id=1386487701]
+position = Vector2(1100.25, 168.56252)
+scale = Vector2(0.2259825, 0.18555053)
+texture = ExtResource("3_4svbh")
